@@ -44,7 +44,7 @@ public:
 
 int main() {
     Solution s;
-    string testStr = "({}[])";
+    string testStr = "";
     cout << s.isValid(testStr) << endl;
     
     return 0;
