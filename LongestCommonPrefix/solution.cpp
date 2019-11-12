@@ -14,7 +14,7 @@
 
 using namespace std;
 
-class Solution {
+class HorizontalScanningSolution {
 
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -30,6 +30,21 @@ public:
     }
 };
 
+class VerticalScanningSolution {
+
+public:
+  string longestCommonPrefix(vector<string>& strs) {
+    if (strs.size() == 0) return "";
+    for (int i = 0; i < strs[0].length(); i++) {
+      char c = strs[0][i];
+      for (int j = 1; j < strs.size(); j++) {
+        if (i == strs[j].length() || strs[j][i] != c) return strs[0].substr(0, i);
+      }
+    }
+    return strs[0];
+  }
+};
+
 
 
 int main() {
@@ -40,7 +55,9 @@ int main() {
     testVecotr.push_back("float");
     testVecotr.push_back("flower");
     
-    Solution solution;
+    HorizontalScanningSolution horizontalScanningSolution;
+    VerticalScanningSolution verticalScanningSolution;
     
-    cout << solution.longestCommonPrefix(testVecotr) << endl;;
+    // cout << horizontalScanningSolution.longestCommonPrefix(testVecotr) << endl;;
+    cout << verticalScanningSolution.longestCommonPrefix(testVecotr) << endl;;
 }
