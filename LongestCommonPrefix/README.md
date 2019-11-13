@@ -23,4 +23,8 @@ Explanation: There is no common prefix among the input strings.
 **Note:**
 All given inputs are in lowercase letters `a-z`.
 
-## Solution
+## Solutions
+| Name          | Runtime           | Memory  |  Language |
+| :-----------: |:-------------:    | :-----: | :-------: |
+| Horizontal Scanning  | 4 ms              | 9 MB  |    cpp    |
+| Vertical Scanning    | 4 ms              | 8.6 MB  |    cpp    |
