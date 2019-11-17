@@ -13,3 +13,7 @@ Output: 1->1->2->3->4->4
 ```
 
 ## Solution
+| Name          | Runtime           | Memory  |  Language |
+| :-----------: |:-------------:    | :-----: | :-------: |
+| Common Solution      | 8 ms             | 8.9 MB  |    cpp    |
+| Switch Solution      | 8 ms             | 9 MB  |    cpp    |
