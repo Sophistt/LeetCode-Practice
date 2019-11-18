@@ -10,3 +10,7 @@ A practice of LeetCode.
 - [Remove Duplicates from Sorted Array](https://github.com/Sophistt/LeetCode-Practice/tree/master/RemoveDuplicatesFromSortedArray)
 - [Roman to Integer](https://github.com/Sophistt/LeetCode-Practice/tree/master/RomanToInteger)
 - [Valid Parentheses](https://github.com/Sophistt/LeetCode-Practice/tree/master/ValidParentheses)
+
+**MEDIUM**
+
+**HARD**
