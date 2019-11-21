@@ -15,5 +15,6 @@ A practice of LeetCode.
 **MEDIUM**
 - [Add Two Numbers](https://github.com/Sophistt/LeetCode-Practice/tree/master/AddTwoNumbers)
 - [Container with Most Water](https://github.com/Sophistt/LeetCode-Practice/tree/master/ContainerWithMostWater)
+- [Find First and Last Position of Element in Sorted Array](https://github.com/Sophistt/LeetCode-Practice/tree/master/FindFirstAndLastPosition)
 
 **HARD**
