@@ -49,18 +49,7 @@ public:
 
 int main() {
 
-    vector<int> testVector;
-
-    testVector.push_back(1);
-    testVector.push_back(8);
-    testVector.push_back(6);
-    testVector.push_back(2);
-    testVector.push_back(5);
-    testVector.push_back(4);
-    testVector.push_back(8);
-    testVector.push_back(3);
-    testVector.push_back(7);
-
+    vector<int> testVector = {1, 8, 6, 2, 5, 4, 8, 3, 7};
 
     ExhaustiveSolution exhaustiveSolution;
     TwoPointerSolution twoPointerSolution;

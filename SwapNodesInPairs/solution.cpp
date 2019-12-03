@@ -33,9 +33,9 @@ public:
             p1->next = p2->next;
             p2->next = p1;
 
-            if (prev) {
-                head = p2;
+            if (!prev) {
                 prev = p1; 
+                head = p2;
             }
             else {
                 prev->next = p2;
@@ -46,6 +46,13 @@ public:
             p2 = p1->next;
         }
         return head;
+    }
+
+    void printLinkList(ListNode* head) {
+        if (!head) return;
+        
+        cout << head->val << endl;
+        printLinkList(head->next);
     }
 };
 
@@ -69,5 +76,6 @@ int main() {
     }
 
     Solution solution;
-    solution.swapPairs(head);
+    head = solution.swapPairs(head);
+    solution.printLinkList(head);
 }
